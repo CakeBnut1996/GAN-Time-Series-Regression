@@ -1,5 +1,8 @@
 # GAN-Regression
-This script is used for numerical values prediction. The example is next two-hour traffic speed prediction based on historical speeds.
+This script is used for numerical values prediction. The example is next two-hour traffic speed prediction based on historical speeds. The model structure is as follows. In this project, LSTM is selected to be the form of both generative and discriminative networks. 
+
+![image](https://user-images.githubusercontent.com/46463367/112266358-15164800-8c31-11eb-82ce-5864632ad946.png)
+
 
 The evaluation criteria is mean absolute percentage error. If comparing the MAPE by model (GAN, LSTM, XGBoost) and time of day, the results are somethng like the following figure.
 
