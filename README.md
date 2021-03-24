@@ -4,7 +4,7 @@ This script is used for numerical values prediction. The example is next two-hou
   <img src="https://user-images.githubusercontent.com/46463367/112266358-15164800-8c31-11eb-82ce-5864632ad946.png"/>
 </p>
 
-The evaluation criteria is mean absolute percentage error. If comparing the MAPE by model (GAN, LSTM, XGBoost) and time of day, the results are somethng like the following figure.
+The scripts include models, preprocessing, training and testing. The evaluation criteria is mean absolute percentage error. If comparing the MAPE by model (GAN, LSTM, XGBoost) and time of day, the results are somethng like the following figure.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46463367/112259952-5ce3a200-8c26-11eb-89b1-66a76af2bd63.png"/>
 </p>
